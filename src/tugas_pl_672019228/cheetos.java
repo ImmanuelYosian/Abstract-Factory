@@ -11,7 +11,7 @@ package tugas_pl_672019228;
  */
 public class cheetos implements Snack {
     @Override 
-    public void draw () {
+    public void makan () {
         System.out.println("- Cheetos dengan Rasa Original \n Harga Rp. 48.000 ");
     }
 }

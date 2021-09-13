@@ -10,5 +10,5 @@ package tugas_pl_672019228;
  * @author HP
  */
 public interface Snack {
-    void draw ();
+    void makan();
 }

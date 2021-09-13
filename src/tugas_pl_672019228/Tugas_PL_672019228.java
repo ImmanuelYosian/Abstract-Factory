@@ -16,15 +16,26 @@ public class Tugas_PL_672019228 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        jenis jenis = new jenis();
+        SnackFactory snackfact = new SnackFactory();
         
-        Snack Snack1 = jenis.getSnack("taro");
-        Snack1.draw();
+        Snack Snack1 = snackfact.getSnack("Taro");
+        Snack1.makan();
         
-        Snack Snack2 = jenis.getSnack("cheetos");
-        Snack2.draw();
+        Snack Snack2 = snackfact.getSnack("Cheetos");
+        Snack2.makan();
 
-        Snack Snack3 = jenis.getSnack("pilus");
-        Snack3.draw();
+        Snack Snack3 = snackfact.getSnack("Pilus");
+        Snack3.makan();
+        
+        DrinkFactory drinkfact = new DrinkFactory();
+        
+        Drink Drink1 = drinkfact.getDrink("Milo");
+        Drink1.minum();
+        
+        Drink Drink2 = drinkfact.getDrink("FruitTea");
+        Drink2.minum();
+        
+        Drink Drink3 = drinkfact.getDrink("GoodDay");
+        Drink3.minum();
     }
 }
