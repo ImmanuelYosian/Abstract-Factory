@@ -7,11 +7,9 @@ package tugas_pl_672019228;
 
 /**
  *
- * @author HP
+ * @author denisaditya
  */
-public class pilus implements Snack {
-    @Override 
-    public void makan () {
-        System.out.println(" - Pilus dengan Rasa BBQ \n Harga Rp.36.000 ");
-    }
+public abstract class AbstractFactory {
+    abstract Snack getSnack(String snack);
+    abstract Drink getDrink(String drink);
 }

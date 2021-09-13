@@ -9,7 +9,9 @@ package tugas_pl_672019228;
  *
  * @author HP
  */
-public class jenis {
+public class SnackFactory extends AbstractFactory{
+    
+    @Override
      public Snack getSnack(String SnackType) {
         if (SnackType == null) {
             return null;
@@ -21,6 +23,11 @@ public class jenis {
         } else if (SnackType.equalsIgnoreCase("taro")) {
             return new taro();
         }
+        return null;
+    }
+     
+    @Override
+    Drink getDrink(String drink) {
         return null;
     }
 }

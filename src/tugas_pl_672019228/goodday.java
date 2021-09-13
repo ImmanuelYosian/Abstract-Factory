@@ -7,11 +7,12 @@ package tugas_pl_672019228;
 
 /**
  *
- * @author HP
+ * @author denisaditya
  */
-public class pilus implements Snack {
-    @Override 
-    public void makan () {
-        System.out.println(" - Pilus dengan Rasa BBQ \n Harga Rp.36.000 ");
+public class goodday implements Drink{
+    
+    @Override
+    public void minum() {
+        System.out.println("- GoodDay dengan Rasa Cappucino \n Harga Rp. 15.000 ");
     }
 }

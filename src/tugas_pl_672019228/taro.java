@@ -11,7 +11,7 @@ package tugas_pl_672019228;
  */
 public class taro implements Snack {
     @Override 
-    public void draw () {
+    public void makan () {
         System.out.println("- Taro dengan Rasa Balado \n Harga Rp.26.000 ");
     }
 }
